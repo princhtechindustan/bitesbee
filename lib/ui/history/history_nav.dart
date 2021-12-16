@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
-
-import 'package:bitesbee/tabfour.dart';
-import 'package:bitesbee/tabthree.dart';
+import 'package:bitesbee/ui/tab_page/tabfour.dart';
+import 'package:bitesbee/ui/tab_page/tabthree.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

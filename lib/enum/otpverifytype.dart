@@ -1,0 +1,3 @@
+
+
+enum OtpVerifyType{LOGIN,REGISTER}

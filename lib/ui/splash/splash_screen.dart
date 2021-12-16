@@ -1,6 +1,5 @@
 import 'dart:async';
-
-import 'package:bitesbee/myhome_page.dart';
+import 'package:bitesbee/route/pages_routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -19,16 +18,16 @@ class _SplashScreenState extends State<SplashScreen> {
   //   super.initState();
   //   Timer(
   //       const Duration(seconds: 3),
-  //           () => Navigator.of(context).pushReplacement(
-  //               MaterialPageRoute(
-  //           builder: (BuildContext context) =>  const LoginPage())));
+  //       () => Navigator.of(context).pushReplacement(MaterialPageRoute(
+  //           builder: (BuildContext context) => const LoginPage())));
   // }
+
   @override
   void initState() {
     super.initState();
     Timer(
         const Duration(seconds: 3),
-        () => Get.toNamed("/Login"));
+        () => Get.toNamed(AppRoutes.login));
   }
 
   @override

@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:bitesbee/cart_nav.dart';
-import 'package:bitesbee/history_nav.dart';
-import 'package:bitesbee/nav_four.dart';
-import 'package:bitesbee/profile_nav.dart';
+import 'package:bitesbee/ui/cart/cart_nav.dart';
+import 'package:bitesbee/ui/history/history_nav.dart';
+import 'package:bitesbee/ui/nav_four/nav_four.dart';
+import 'package:bitesbee/ui/profile/profile_nav.dart';
 import 'package:flutter/material.dart';
 
 class OrderPage extends StatefulWidget {
